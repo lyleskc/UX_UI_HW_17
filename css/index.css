@@ -1,0 +1,9 @@
+.inline-block logo {
+        height: auto;
+        max-width: 10%;
+        transform: rotate(30deg);
+      }
+.header {
+    height: auto;
+    max-width: 10%;
+}
