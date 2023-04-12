@@ -1,11 +1,13 @@
 .inline-block logo {
         height: auto;
         max-width: 10%;
-        background-color: aqua;
         transform: rotate(30deg);
       }
 .content {
     height: auto;
     max-width: 10%;
     justify-content: right;
+}
+body {
+  background-color: black;
 }
