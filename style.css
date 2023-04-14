@@ -1,13 +1,78 @@
-.inline-block logo {
-        height: auto;
-        max-width: 10%;
-        transform: rotate(30deg);
-      }
-.content {
-    height: auto;
-    max-width: 10%;
-    justify-content: right;
+.background {
+  background-color: #F8E0DA;
 }
-body {
-  background-color: black;
+.navTop {
+  width: 50%;
+  float: right;
+}
+
+.navli {
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+.siteId {
+transform: rotate(-30deg);
+}
+
+*,
+*::before,
+*::after {
+margin: 5px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.projectImg{
+border-bottom: 3px solid black;
+border-left: 3px solid black;
+border-top: 1px solid black;
+border-right: 1px solid black;
+border-spacing: 50px;
+}
+
+.textBox {
+padding: 20%;
+}
+
+.gridLanding {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 25px;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr; 
+}
+
+.projectTitle {
+  padding-left: 50px;
+}
+
+.orangeSticker {
+  transform: rotate(20deg);
+}
+
+
+.headshot {
+max-height: 400px; 
+width: auto;
+border-top: 20px solid #FFFBF5;
+border-left: 20px solid #FFFBF5;
+border-bottom: 90px solid #FFFBF5;
+border-right: 20px solid #FFFBF5;
+filter: drop-shadow(2px 2px 2px);
+}
+
+.borderclass {
+  border-bottom: 4px solid black;
+  border-top: 1px solid black;
+  border-left: 4px solid black;
+  border-right: 1px solid black;
+}
+
+.bottomNav {
+  float: right;
+  display: inline-block;
 }
