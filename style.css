@@ -4,6 +4,7 @@
 .navTop {
   width: 50%;
   float: right;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .navli {
@@ -13,17 +14,24 @@
 
 .siteId {
 transform: rotate(-30deg);
+padding-left: 7px;
+padding-top: 7px;
+}
+
+.introHey {
+  font-family: 'Homemade Apple', cursive;
 }
 
 *,
 *::before,
 *::after {
-margin: 5px;
+margin: 0px;
 padding: 0px;
 box-sizing: border-box;
 }
 
 .projectImg{
+display: inline-block;
 border-bottom: 3px solid black;
 border-left: 3px solid black;
 border-top: 1px solid black;
@@ -32,18 +40,50 @@ border-spacing: 50px;
 }
 
 .textBox {
-padding: 20%;
+background-color: #FFFBF5;
+display: inline-block;
+margin: 20px;
+padding: 40px;
+border-width: 1px 1px 2px 2px;
+border-style: solid;
+border-color: #000000;
+box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+text-align: center;
 }
 
 .gridLanding {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 0.5fr 2fr;
+  align-items: flex-start
+}
+
+.learnMore {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  background-color: #DE1B40;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 1) 8px 8px;
+  justify-content: center;
+}
+
+
+.gridFooter {
+  display: grid;
+  grid-template-columns: .05fr 2fr 0.5fr 0.5fr 0.5fr 1fr;
   margin-top: 25px;
+  margin-bottom: 40px;
 }
 
 .projectGrid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr; 
+  grid-template-columns: 2.5fr 0.5fr 2fr;
+  font-family: 'Quicksand', sans-serif;
+  padding-bottom: 20px;
 }
 
 .projectTitle {
@@ -54,6 +94,10 @@ padding: 20%;
   transform: rotate(20deg);
 }
 
+.latestProjects {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .headshot {
 max-height: 400px; 
@@ -72,7 +116,39 @@ filter: drop-shadow(2px 2px 2px);
   border-right: 1px solid black;
 }
 
+.projectText {
+  background-color: #FFFBF5;
+display: inline-block;
+padding: 40px;
+margin-right: 20px;
+border-width: 1px 1px 2px 2px;
+border-style: solid;
+border-color: #000000;
+box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
 .bottomNav {
-  float: right;
+  float: left;
   display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h4 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
 }
