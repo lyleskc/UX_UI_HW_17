@@ -5,12 +5,17 @@
   width: 50%;
   float: right;
   font-family: 'Quicksand', sans-serif;
+  color: #2B2222;
+  text-decoration: none;
 }
 
 .navli {
   display: inline-block;
   padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
 }
+
 
 .siteId {
 transform: rotate(-30deg);
@@ -81,13 +86,21 @@ text-align: center;
 
 .projectGrid {
   display: grid;
-  grid-template-columns: 2.5fr 0.5fr 2fr;
+  grid-template-columns: 2.5fr 0.25fr 2fr;
   font-family: 'Quicksand', sans-serif;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .projectTitle {
   padding-left: 50px;
+  background: #fdca3c;
+  display: inline-flex;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 150px;
+  margin-left: 20px;
+  clip-path: polygon(95% 15%,82% 53%,96% 95%,4% 95%,4% 15%);
 }
 
 .orangeSticker {
@@ -120,7 +133,7 @@ filter: drop-shadow(2px 2px 2px);
   background-color: #FFFBF5;
 display: inline-block;
 padding: 40px;
-margin-right: 20px;
+margin-right: 30px;
 border-width: 1px 1px 2px 2px;
 border-style: solid;
 border-color: #000000;
@@ -131,6 +144,11 @@ box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
   float: left;
   display: inline-block;
   font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+}
+
+body {
+  background-color: #FFFBF5;
 }
 
 h1 {
@@ -142,7 +160,8 @@ h2 {
 }
 
 h3 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;]
+  font-size: 18px;
 }
 
 h4 {
@@ -151,4 +170,5 @@ h4 {
 
 p {
   font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
 }
