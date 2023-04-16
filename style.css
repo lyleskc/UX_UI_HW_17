@@ -1,5 +1,6 @@
 .background {
   background-color: #F8E0DA;
+  color: #2B2222;
 }
 .navTop {
   width: 50%;
@@ -7,6 +8,7 @@
   font-family: 'Quicksand', sans-serif;
   color: #2B2222;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .navli {
@@ -16,11 +18,10 @@
   text-decoration: none;
 }
 
-
 .siteId {
 transform: rotate(-30deg);
-padding-left: 7px;
-padding-top: 7px;
+padding-left: 10px;
+padding-top: 10px;
 }
 
 .introHey {
@@ -37,10 +38,10 @@ box-sizing: border-box;
 
 .projectImg{
 display: inline-block;
-border-bottom: 3px solid black;
-border-left: 3px solid black;
-border-top: 1px solid black;
-border-right: 1px solid black;
+border-bottom: 3px solid #2B2222;
+border-left: 3px solid #2B2222;
+border-top: 1px solid #2B2222;
+border-right: 1px solid #2B2222;
 border-spacing: 50px;
 }
 
@@ -51,9 +52,10 @@ margin: 20px;
 padding: 40px;
 border-width: 1px 1px 2px 2px;
 border-style: solid;
-border-color: #000000;
+border-color: #2B2222;
 box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 text-align: center;
+font-weight: 400;
 }
 
 .gridLanding {
@@ -72,7 +74,7 @@ text-align: center;
   display: inline-block;
   font-size: 18px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 1) 8px 8px;
+  box-shadow: rgb(0, 0, 0) 8px 8px;
   justify-content: center;
 }
 
@@ -94,6 +96,7 @@ text-align: center;
 .projectTitle {
   padding-left: 50px;
   background: #fdca3c;
+  color: #2B2222;
   display: inline-flex;
   padding-left: 40px;
   padding-top: 20px;
@@ -123,10 +126,10 @@ filter: drop-shadow(2px 2px 2px);
 }
 
 .borderclass {
-  border-bottom: 4px solid black;
-  border-top: 1px solid black;
-  border-left: 4px solid black;
-  border-right: 1px solid black;
+  border-bottom: 4px solid #2B2222;
+  border-top: 1px solid #2B2222;
+  border-left: 4px solid #2B2222;
+  border-right: 1px solid #2B2222;
 }
 
 .projectText {
@@ -136,15 +139,15 @@ padding: 40px;
 margin-right: 30px;
 border-width: 1px 1px 2px 2px;
 border-style: solid;
-border-color: #000000;
+border-color: #2B2222;
 box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
 .bottomNav {
   float: left;
-  display: inline-block;
   font-family: 'Quicksand', sans-serif;
   font-size: 14px;
+  font-weight: 600;
 }
 
 body {
@@ -160,7 +163,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Quicksand', sans-serif;]
+  font-family: 'Quicksand', sans-serif;
   font-size: 18px;
 }
 
