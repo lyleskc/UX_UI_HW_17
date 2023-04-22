@@ -71,6 +71,7 @@ border-left: 3px solid #2B2222;
 border-top: 1px solid #2B2222;
 border-right: 1px solid #2B2222;
 border-spacing: 50px;
+margin-left: 20px;
 }
 
 .textBox {
@@ -151,7 +152,7 @@ grid-column: 1 / span 2;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 150px;
-  margin-left: 20px;
+  margin-left: 10px;
   clip-path: polygon(95% 15%,82% 53%,96% 95%,4% 95%,4% 15%);
 }
 
@@ -182,6 +183,7 @@ grid-column: 4 / span 2;
   grid-column: 4 / span 1;
   transform: rotate(15deg);
   max-width: 140px;
+  min-width: 120px;
   z-index: 2;
 }
 
@@ -241,8 +243,3 @@ p {
   font-size: 14px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-
-}
